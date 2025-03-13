@@ -12,7 +12,6 @@ dataclasses-json==0.6.7
 fastapi==0.115.11
 filetype==1.2.0
 frozenlist==1.5.0
-google-ai-generativelanguage==0.6.15
 google-api-core==2.24.1
 google-api-python-client==2.163.0
 google-auth==2.38.0
@@ -33,7 +32,6 @@ langchain==0.3.20
 langchain-community==0.3.19
 langchain-core==0.3.41
 langchain-google-genai==2.0.11
-langchain-text-splitters==0.3.6
 langsmith==0.3.12
 marshmallow==3.26.1
 multidict==6.1.0
