@@ -80,7 +80,7 @@ def get_pois_overpass(area_name, city_name, poi_categories):
           relation["amenity"="{category}"](around:{search_radius},{geocode_lat},{geocode_lon});
         );
         out center;
-        """
+        
         
         try:
             response = requests.post(overpass_url, data=overpass_query)
@@ -161,7 +161,7 @@ def generate_complete_geojson(area_name, city_name, pois_data, bbox):
     
     Return ONLY valid GeoJSON with no additional text or explanations.
     The response must be a complete, valid GeoJSON FeatureCollection.
-    """
+    
     
     try:
         response = model.generate_content(prompt)
@@ -412,9 +412,13 @@ async def analyze_area(area_request: dict):
         print(f"Unexpected Error: {str(e)}")
         raise HTTPException(status_code=500, detail=f"Unexpected error: {str(e)}")
 
+# ... existing code ...
+
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    # Use PORT environment variable if available (for Render), otherwise use 8000
+    port = int(os.getenv("PORT", 8000))
+    uvicorn.run(app, host="0.0.0.0", port=port)
     
 '''HERE CHECKPOINT WORKING
 
