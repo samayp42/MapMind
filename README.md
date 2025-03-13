@@ -122,78 +122,6 @@ npm start
 
 Frontend will run at: http://localhost:3000
 
-## 📚 API Documentation
-### Analyze Area Endpoint
-POST /analyze-area
-
-Request Body:
-
-```json
-{
-  "city": "New York",
-  "area": "Manhattan"
-}
- ```
-
-Response:
-
-```json
-{
-  "summary": "Area analysis summary...",
-  "pie_chart_data": [...],
-  "ai_rating": 85,
-  "geocode": {...},
-  "bbox": [...],
-  "geojson": {...},
-  "pois": {...}
-}
- ```
-
-## 📸 Screenshots
-Main Dashboard View
-
-Area Analysis Results
-
-## 🔍 Features in Detail
-### 1. Area Analysis
-- Comprehensive POI mapping
-- Distance calculations
-- Amenity density analysis
-### 2. AI Insights
-- Smart area evaluation
-- Livability scoring
-- Future potential assessment
-### 3. Visualization
-- Interactive maps
-- Statistical charts
-- Comparative analysis
-## 🛠️ Development
-### Project Structure
-```plaintext
-MapMind/
-├── backend/
-│   ├── main.py           # Main FastAPI application
-│   ├── requirements.txt  # Python dependencies
-│   └── .env             # Environment variables
-├── frontend/
-│   ├── src/             # React source files
-│   ├── public/          # Static assets
-│   └── package.json     # Node.js dependencies
-└── docs/
-    └── screenshots/     # Application screenshots
- ```
-
-### Running Tests
-```bash
-# Backend tests
-cd backend
-pytest
-
-# Frontend tests
-cd frontend
-npm test
- ```
-
 ## 🤝 Contributing
 1. Fork the repository
 2. Create your feature branch ( git checkout -b feature/AmazingFeature )
@@ -206,9 +134,8 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## 🙏 Acknowledgments
 - OpenStreetMap for POI data
 - Google Gemini AI for analysis
-- Mapbox for map visualization
+- Maptiler for map visualization
 ## 📞 Support
-For support, email support@mapmind.com or join our Discord channel.
 
 Made with ❤️ by Samay Patel
  ```
