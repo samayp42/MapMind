@@ -1,12 +1,12 @@
 ```markdown
-# MapMind 🗺️
+*MapMind 🗺️*
 
 <div align="center">
   <img src="frontend/public/logo.png" alt="MapMind Logo" width="200"/>
   <p><strong>Intelligent Location Analysis for Smart Living Decisions</strong></p>
 </div>
 
-## 📋 Table of Contents
+*📋 Table of Contents*
 - [Overview](#overview)
 - [Key Features](#key-features)
 - [Live Demo](#live-demo)
@@ -19,11 +19,11 @@
 - [Contributing](#contributing)
 - [License](#license)
 
-## 🌟 Overview
+*🌟 Overview8
 
 MapMind is an advanced location analysis tool that helps users make informed decisions about where to live. By analyzing various points of interest (POIs) within a specified area, it provides comprehensive insights about the neighborhood's livability, amenities, and overall potential.
 
-## 🎯 Key Features
+*🎯 Key Features*
 
 - **Interactive Map Visualization**
   - Real-time POI mapping
@@ -40,7 +40,7 @@ MapMind is an advanced location analysis tool that helps users make informed dec
   - POI distribution analysis
   - Comparative neighborhood metrics
 
-## 🚀 Tech Stack
+*🚀 Tech Stack*
 
 ### Frontend
 - React.js
